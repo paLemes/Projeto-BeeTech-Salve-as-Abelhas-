@@ -1,0 +1,47 @@
+Tabela clientes: Guarda quem está comprando.
+
+id_cliente (Chave Primária, Auto Incremento)
+
+nome (Varchar 100)
+
+email (Varchar 100)
+
+telefone (Varchar 20)
+
+cep (Varchar 10) — Importante para saber o clima e indicar as flores certas.
+
+endereco (Varchar 255)
+
+Tabela produtos: Guarda as maquetes, sementes e mudas.
+
+id_produto (Chave Primária)
+
+nome (Varchar 100) descricao (Text)
+
+preco (Decimal 10,2)
+
+categoria (Enum: 'Maquete', 'Semente', 'Muda')
+
+estoque (Int)
+
+Tabela pedidos: Registra a venda em si.
+
+id_pedido (Chave Primária)
+
+id_cliente (Chave Estrangeira ligando à tabela clientes)
+
+data_pedido (Datetime)
+
+status (Varchar 50) — Ex: "Em produção", "Enviado".
+
+Tabela itens_pedido: Detalha o que tem dentro de cada pedido.
+
+id_item (Chave Primária)
+
+id_pedido (Chave Estrangeira)
+
+id_produto (Chave Estrangeira)
+
+quantidade (Int)
+
+preco_unitario (Decimal 10,2)
