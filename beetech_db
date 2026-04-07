@@ -1,0 +1,54 @@
+DROP DATABASE IF EXISTS beehub_db;
+
+CREATE DATABASE beetech_db;
+USE beetech_db;
+
+
+CREATE TABLE clientes (
+    id_cliente INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE,
+    cep VARCHAR(10),
+    endereco VARCHAR(255)
+);
+
+
+CREATE TABLE produtos (
+    id_product INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    preco DECIMAL(10,2) NOT NULL,
+    categoria ENUM('Caixa', 'Semente', 'Muda', 'Flor', 'Arvore') NOT NULL,
+    descricao TEXT,
+    estoque INT DEFAULT 0
+);
+
+
+CREATE TABLE pedidos (
+    id_pedido INT PRIMARY KEY AUTO_INCREMENT,
+    id_cliente INT,
+    data_pedido DATETIME DEFAULT CURRENT_TIMESTAMP,
+    status ENUM('Pendente', 'Pago', 'Entregue') DEFAULT 'Pendente',
+    FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente)
+);
+
+
+CREATE TABLE itens_pedido (
+    id_item INT PRIMARY KEY AUTO_INCREMENT,
+    id_pedido INT,
+    id_produto INT,
+    quantidade INT NOT NULL,
+    preco_unitario DECIMAL(10,2) NOT NULL,
+    FOREIGN KEY (id_pedido) REFERENCES pedidos(id_pedido),
+    FOREIGN KEY (id_produto) REFERENCES produtos(id_produto)
+);
+
+
+CREATE TABLE especies_abelhas (
+    id_especie INT PRIMARY KEY AUTO_INCREMENT,
+    nome_popular VARCHAR(100),
+    nome_cientifico VARCHAR(100),
+    bioma_principal VARCHAR(100),
+    importancia_ecologica TEXT,
+    dicas_preservacao TEXT,
+    link_foto VARCHAR(255)
+);
