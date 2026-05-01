@@ -25,7 +25,7 @@ Gestão do Projeto
 Toda a organização de prazos e tarefas deste projeto é realizada via Trello.
 
 
-Acesse o Quadro do Trello Aqui https://trello.com/invite/b/699e2b8f18073a6319d3b5ea/ATTI300799351335ce57494b1dbeba80b2554387F44B/dailys  
+Acesse o Quadro do Trello Aqui https://trello.com/b/Oc6HyHyQ
 
 # Equipe
 Melaine Borges Alves
