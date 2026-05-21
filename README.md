@@ -27,7 +27,7 @@ Toda a organização de prazos e tarefas deste projeto é realizada via Trello.
 
 Acesse o Quadro do Trello Aqui https://trello.com/b/Oc6HyHyQ
 
-Acesse nossa rede Social: @https://www.instagram.com/beetch_abelhas/
+Acesse nossa rede Social: https://www.instagram.com/beetch_abelhas/
 # Equipe
 Melaine Borges Alves
 
