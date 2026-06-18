@@ -25,6 +25,12 @@ Softwares de Design: AutoCAD, Civil 3D e SketchUp para o detalhamento das fachad
 
 Materiais Físicos: Madeira balsa para a maquete externa, madeiras sustentáveis para o ninho interno e chapas de acrílico para janelas de observação não invasiva.
 
+<img width="1490" height="563" alt="image" src="https://github.com/user-attachments/assets/db0184fe-cc72-41c5-be84-bf573ec21617" />
+
+<img width="2178" height="720" alt="image" src="https://github.com/user-attachments/assets/bf126037-d6f6-4720-9a54-a8e4d18bb28c" />
+
+
+
 Logística Verde: Embalagens biodegradáveis para o envio de mudas e sementes.
 
 Engenharia de Software (TI)
