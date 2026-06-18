@@ -4,6 +4,8 @@ Este projeto integra design arquitetônico, sustentabilidade e preservação da 
 O foco principal é transformar a meliponicultura urbana em um objeto de design exclusivo, promovendo a regeneração ambiental por meio da venda de kits de sementes e mudas de plantas melitófilas.
 
 # Visão Geral do Projeto
+<img width="901" height="514" alt="image" src="https://github.com/user-attachments/assets/96823c21-f4bf-4429-ae55-1124b57a8420" />
+
 Diferente das caixas padrão de mercado, o Bee-Hub oferece réplicas arquitetônicas detalhadas (maquetes em escala) que servem como "casca" protetora para ninhos de abelhas nativas. O modelo de negócio abrange:
 
 Design Customizado: Réplicas de prédios, residências ou instituições (como o campus IFPR) feitas em madeira balsa e acrílico.
