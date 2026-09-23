@@ -57,6 +57,10 @@ Como o foco atual foi a validação do design, usabilidade e arquitetura de rota
 2. Módulo de Vendas: Implementação das tabelas e regras de negócio para venda dos kits de regeneração e caixas-maquete.
 3. Mecanismo de Busca: Desenvolvimento de queries indexadas para o histórico e salvamento das pesquisas da comunidade.
 
+   <img width="1055" height="1491" alt="matdidatico" src="https://github.com/user-attachments/assets/d97a700c-1ea2-4dd6-aa30-4e439b915f15" />
+
+
+
 
 Acesse o Quadro do Trello Aqui https://trello.com/b/Oc6HyHyQ
 
