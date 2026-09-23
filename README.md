@@ -56,6 +56,7 @@ Como o foco atual foi a validação do design, usabilidade e arquitetura de rota
 1. Persistência de Dados: Integração do Back-end em Node.js com um Banco de Dados Relacional (PostgreSQL/MySQL) para o cadastro real de usuários.
 2. Módulo de Vendas: Implementação das tabelas e regras de negócio para venda dos kits de regeneração e caixas-maquete.
 3. Mecanismo de Busca: Desenvolvimento de queries indexadas para o histórico e salvamento das pesquisas da comunidade.
+4. Criação de material didático voltado ao ensino de manejo, conhecimento e preservação de abelhas sem ferrão
 
    <img width="1055" height="1491" alt="matdidatico" src="https://github.com/user-attachments/assets/d97a700c-1ea2-4dd6-aa30-4e439b915f15" />
 
